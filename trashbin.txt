@@ -1,0 +1,202 @@
+concat
+ 
+center
+ 
+ style={{ background: "transparent", border: "none" }}
+ 
+ style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          flex: 1,
+        }}
+ 
+style={{ height: "100%", marginRight: "15px" }}
+ 
+ style={{
+        
+        }}
+ 
+ style={{
+       
+      }}
+ 
+.sora {
+}
+ 
+width: 60px;
+ 
+.rot {
+  transform: skew(-18deg) !important; /* Equal to skewX(10deg) */
+  width: 60px;
+  border: 1px solid;
+}
+ 
+.sora {
+}
+
+ 
+[prev + 8]
+ 
+slides.slice(prev, prev + 8)
+ 
+length
+ 
+const newStartIndex = startIndex - 1;
+ 
+nextSlide
+ 
+prevSlide
+ 
+(prev + 1) % slides.length
+ 
+prev + 8 !== slides.length - 1 ? prev + 1 : 0)
+ 
+slice(prev, prev + 8)
+ 
+.slice(prev, prev + 8)
+ 
+ {
+      image: "/assets/Asset3.png",
+      alt: "Slide 1",
+      title: "",
+    },
+    {
+      image: "/assets/Asset4.png",
+      alt: "Slide 1",
+      title: "",
+    },
+    {
+      image: "/assets/Asset5.png",
+      alt: "Slide 1",
+      title: "",
+    },
+    {
+      image: "/assets/Asset6.png",
+      alt: "Slide 1",
+      title: "",
+    },
+    {
+      image: "/assets/Asset7.png",
+      alt: "Slide 1",
+      title: "",
+    },
+ 
+prev
+ 
+rot
+ 
+position: "absolute",
+                  top:0,
+                  bottom:0,
+ 
+,position:"relative"
+ 
+100%
+ 
+60px
+ 
+ {
+      image:
+        "https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616_1280.jpg",
+      alt: "Slide 2",
+      title: "",
+    },
+    {
+      image:
+        "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg",
+      alt: "Slide 1",
+      title: "",
+    },
+    {
+      image:
+        "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg",
+      alt: "Slide 1",
+      title: "",
+    },
+    {
+      image:
+        "https://cdn.pixabay.com/photo/2015/02/24/15/41/dog-647528_1280.jpg",
+      alt: "Slide 3",
+      title: "",
+    },
+    {
+      image:
+        "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg",
+      alt: "Slide 1",
+      title: "",
+    },
+    {
+      image:
+        "https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+      alt: "Slide 3",
+      title: "",
+    },
+    {
+      image:
+        "https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8=",
+      alt: "Slide 1",
+      title: "",
+    },
+    {
+      image:
+        "https://media.istockphoto.com/id/1146517111/photo/taj-mahal-mausoleum-in-agra.jpg?s=612x612&w=0&k=20&c=vcIjhwUrNyjoKbGbAQ5sOcEzDUgOfCsm9ySmJ8gNeRk=",
+      alt: "Slide 3",
+      title: "",
+    },
+
+    {
+      image:
+        "https://cdn.pixabay.com/photo/2015/02/24/15/41/dog-647528_1280.jpg",
+      alt: "Slide 3",
+      title: "bsdd",
+    },
+    {
+      image:
+        "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg",
+      alt: "Slide 1",
+      title: "",
+    },
+    {
+      image:
+        "https://cdn.pixabay.com/photo/2015/02/24/15/41/dog-647528_1280.jpg",
+      alt: "Slide 3",
+      title: "",
+    },
+    {
+      image:
+        "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg",
+      alt: "Slide 1",
+      title: "",
+    },
+    {
+      image:
+        "https://cdn.pixabay.com/photo/2015/02/24/15/41/dog-647528_1280.jpg",
+      alt: "Slide 3",
+      title: "",
+    },
+    {
+      image:
+        "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg",
+      alt: "Slide 1",
+      title: "",
+    },
+    {
+      image:
+        "https://cdn.pixabay.com/photo/2015/02/24/15/41/dog-647528_1280.jpg",
+      alt: "Slide 3",
+      title: "",
+    },
+ 
+https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg
+ 
+op
+ 
+width: "50px"
+ 
+  width: "100%",
+                  objectFit: "cover",
+                  height: "100%",
+ 
+50px
+ 
