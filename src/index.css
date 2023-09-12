@@ -27,7 +27,7 @@ code {
   margin-right: 9px;
 }
 .sliderclicks {
-  height: 400px;
+  height: 450px;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -38,7 +38,7 @@ code {
   flex: 2;
 }
 .rot {
-  transform: skew(-18deg) !important; /* Equal to skewX(10deg) */
+  transform: skew(-20deg) !important; 
   width: 60px;
   border: 1px solid;
 }
