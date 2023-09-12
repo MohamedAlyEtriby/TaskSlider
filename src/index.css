@@ -7,6 +7,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #111;
 }
+*{
+    font-size: 20px !important;
+}
 .App {
   height: 100vh;
   display: flex;
