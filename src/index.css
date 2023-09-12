@@ -24,7 +24,7 @@ code {
 }
 .item {
   height: 100%;
-  margin-right: 25px;
+  margin-right: 9px;
 }
 .sliderclicks {
   height: 400px;
@@ -39,7 +39,7 @@ code {
 }
 .rot {
   transform: skew(-18deg) !important; /* Equal to skewX(10deg) */
-  width: 70px;
+  width: 60px;
   border: 1px solid;
 }
 
