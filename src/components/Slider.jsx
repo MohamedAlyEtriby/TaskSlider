@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FcNext } from "react-icons/fc";
 import { FcPrevious } from "react-icons/fc";
-import slides from "./SliderData";
+import slides from "../SliderData";
 
 const Slider = () => {
   const [startIndex, setStartIndex] = useState(0);
