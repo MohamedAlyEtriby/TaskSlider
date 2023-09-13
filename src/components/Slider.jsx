@@ -37,8 +37,8 @@ const Slider = () => {
           <FcPrevious size={40} />
         </button>
         <div>
-          <p>{slicedItems[7].Name}</p>
-          <p>{slicedItems[7].title}</p>
+          <p>{slicedItems[6].Name}</p>
+          <p>{slicedItems[6].title}</p>
         </div>
         <button onClick={handleClickNext} className="Button">
           <FcNext size={40} />

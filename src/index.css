@@ -23,8 +23,20 @@ code {
     monospace;
 }
 .item {
-  height: 100%;
-  margin-right: 9px;
+  /* Add other styles for the item */
+
+  transition: width 0.5s;
+}
+
+.item {
+  /* Add other styles for the item */
+  transition: width 0.5s;
+}
+.current:hover img{
+  transform: scale(1.07);
+}
+.item.current {
+  width: 300px !important;
 }
 .sliderclicks {
   height: 450px;
@@ -41,16 +53,20 @@ code {
   transform: skew(-20deg) !important; 
   width: 60px;
   border: 1px solid;
+  height: 100%;
+  margin-right: 9px;
+  transition: width 800ms ease-in-out;
 }
 
-.current {
+.rot.current {
   width: 300px !important;
+  
 }
 .sora {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center;
+  object-position: 50% 30% !important;
   cursor: pointer;
 }
 

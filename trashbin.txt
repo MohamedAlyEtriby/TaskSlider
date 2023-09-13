@@ -1,3 +1,68 @@
+slicedItems[slicedItems.length - 1].id
+ 
+slicedItems[slicedItems.length - 1].id
+ 
+image
+ 
+image
+ 
+startIndex
+ 
+.Name
+ 
+slides[6].Name
+ 
+item
+ 
+.rot.current.item{
+  transition: width 800ms;
+}
+ 
+mage1.jpg
+ 
+src
+ 
+import './Slider.css';
+ 
+item
+ 
+item
+ 
+.rot.current {
+ 
+}
+ 
+lassName="sora"
+ 
+.item {
+  height: 100%;
+  margin-right: 9px;
+}
+ 
+important
+ 
+-webkit-transition: width 1s ease-in-out;
+  -moz-transition: width 1s ease-in-out
+ 
+ame duration timing-function delay iteration-count direction fill-mode
+ 
+.image-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  transition: width 1s ease-in-out;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 30% !important;
+  cursor: pointer;
+}
+ 
+left
+ 
 /* Equal to skewX(10deg) */
  
 concat
