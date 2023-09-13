@@ -23,20 +23,8 @@ code {
     monospace;
 }
 .item {
-  /* Add other styles for the item */
-
-  transition: width 0.5s;
-}
-
-.item {
-  /* Add other styles for the item */
-  transition: width 0.5s;
-}
-.current:hover img{
-  transform: scale(1.07);
-}
-.item.current {
-  width: 300px !important;
+  height: 100%;
+  margin-right: 9px;
 }
 .sliderclicks {
   height: 450px;
@@ -53,14 +41,10 @@ code {
   transform: skew(-20deg) !important; 
   width: 60px;
   border: 1px solid;
-  height: 100%;
-  margin-right: 9px;
-  transition: width 800ms ease-in-out;
 }
 
-.rot.current {
+.current {
   width: 300px !important;
-  
 }
 .sora {
   width: 100%;

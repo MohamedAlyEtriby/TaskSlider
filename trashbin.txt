@@ -1,3 +1,15 @@
+ const [isExpanded, setIsExpanded] = useState(false);
+
+  const handleClick = () => {
+    setIsExpanded(!isExpanded);
+  };
+
+ 
+  <div>
+      <div className={`box ${isExpanded ? 'expanded' : ''}`}></div>
+      <button onClick={handleClick}>Next</button>
+    </div>
+ 
 slicedItems[slicedItems.length - 1].id
  
 slicedItems[slicedItems.length - 1].id
